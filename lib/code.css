@@ -1,0 +1,28 @@
+html{
+    background-color: black;
+    color:white;
+    
+}
+
+button{
+    display: block;
+    margin:auto;
+    padding: 20px;
+    width: :300px;
+    background-color:black;
+    border:2px solid white;
+    color:white;
+    font-family: Century Gothic;
+    font-size:35px;
+}
+
+button:hover{
+    background-color: white;
+    color:black;
+}
+.#doThis{
+    color: gold;
+    font-size: 40px;
+    margin: 20px;
+    text-align: center;
+}

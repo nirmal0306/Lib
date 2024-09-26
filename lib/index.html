@@ -1,0 +1,336 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="flickity/flickity.css">
+		<script type="text/javascript" src="flickity/flickity.js"></script>
+		<script src="jquery.js"></script>
+		<title>Library Management</title>
+	
+	
+	
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&amp;subset=cyrillic,cyrillic-ext"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Open Sans', sans-serif;
+			background-image: url(background.jpg);
+			background-size: cover;
+			
+        }
+
+        .nav ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .nav {
+            /* background: #555; */
+            text-align: center;
+        }
+
+        .nav ul {
+            display: inline-block;
+            vertical-align: top;
+            font-size: 20px;
+        }
+
+        .nav ul li {
+            position: relative;
+            float: left;
+        }
+
+        .nav ul li+li {
+            margin-left: 1px;
+        }
+
+        .nav ul li a {
+            /* background: #555; */
+            display: inline-block;
+            color: #fff;
+            text-decoration: none;
+            padding: 11px 20px;
+            -webkit-transition: all 0.1s ease-in;
+            -o-transition: all 0.1s ease-in;
+            transition: all 0.1s ease-in;
+        }
+
+        .nav ul li a:hover {
+            background: #646464;
+        }
+
+        .nav ul li>ul {
+            display: none;
+            position: absolute;
+            width: 150px;
+            top: 100%;
+            left: -1px;
+            z-index: 1;
+            text-align: left;
+        }
+
+        .nav ul li>ul li {
+            float: none;
+            margin: 0;
+        }
+
+        .nav ul li>ul li a {
+            display: block;
+            border-top: 1px solid #555;
+        }
+
+        .nav ul li>ul li a:hover {
+            border-top: 1px solid #646464;
+            background: #555;
+        }
+
+        .nav ul li:hover a,
+        .nav ul li.active a {
+            background: #646464;
+        }
+
+        .nav ul li.active {
+            pointer-events: none;
+        }
+    </style>
+    
+</head>
+
+<body>
+<div class="container">
+	<nav class="nav">
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">	
+				
+				<a class="navbar-brand" href="http://localhost/lib/index.html">Kavi Narmad Central Library</a>
+			
+
+			
+				<ul class="navigation">
+					<li><a href="http://localhost/lib/index.html">Home</a></li>
+					<li><a href="http://localhost/lib/user_login_form.php">Login</a></li>
+					<!-- <li><a href="javascript:void(0);">Login <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+						<ul>
+							
+							<li><a href="http://localhost/lib/admin_login_form.php">Login as Admin</a></li>
+						
+						</ul>
+					</li> -->
+					<li><a href="http://localhost/lib/registration_form.php">Sign Up</a></li>
+				
+				</div>
+			</nav>
+
+		</div>
+	</nav>
+
+</div>
+
+		<div class="container-fluid slide">
+			
+	  		<div class="slider">
+	  			<!-- <h1>Flickity - wrapAround</h1> -->
+
+
+					<div class="carousel" data-flickity='{ "autoPlay": true }'; >
+
+						  <div class="carousel-cell" auto-play >
+						  	<img src="ify/19.jpg">
+						  </div>
+						  <div class="carousel-cell" auto-play>
+						  	<img src="ify/18.jpg">
+
+						  </div>
+						  <div class="carousel-cell" auto-play>
+						  	 <img src="ify/17.jpg">
+						  </div>
+						  
+						  <div class="carousel-cell" auto-play >
+						  	<img src="ify/20.jpg">
+						  </div>
+						   <div class="carousel-cell" auto-play>
+						  	<img src="ify/15.jpg">
+						  </div>
+
+					</div>
+
+					
+
+	  		</div>
+		</div>
+
+			  <!-- Default panel contents -->
+	
+
+
+
+
+
+		<div class="container slide2">
+			
+			  <div class="panel-heading">
+		  	<div class="row">
+		  		<h3 class="center-block" style="font-size: 30px;">Published Announcements</h3>
+			</div>
+		  </div>
+		  <table class="table table-bordered" style="font-size: 18px;">
+         
+
+      		<thead>
+                <tr>
+                    <th>NewsId</th>
+                         <th>Announcement</th>
+						 <tr>
+							<td>
+								1
+							</td>
+                          <td>
+							<b>National Library Week PSAs : </b>
+
+								<br>
+								<br>
+
+ 
+
+							National Library Week (April 3- 9, 2022) is a time to celebrate our nation's libraries,
+							library workers' contributions and promote library use and support.  
+							The theme for National Library Week 2022 is "Connect With Your Library." 
+							During the pandemic, library workers continue to exceed their communities
+							'demands and adapt resources and services to meet their users' needs during these challenging times.
+							Whether people visit in person or virtually, libraries offer endless opportunities to transform lives through education and lifelong learning. 
+							First sponsored in 1958, National Library Week is sponsored by the American Library Association (ALA)
+							and observed in libraries across the country each April. All types of libraries - school, public, academic and special - participate.
+						  
+						</td>
+						</tr>
+
+						<tr>
+
+							<td>2</td>
+
+							<td>
+
+								<b>Dr. Ufuoma C. Abiola named inaugural Executive Head and Associate University Librarian for Diversity,
+									 Equity, and Inclusion at Princeton University Library : </b>
+									 <br><br>
+
+									Dr. Ufuoma C. Abiola has been named the inaugural Executive Head and Associate University Librarian for 
+									Diversity, Equity, and Inclusion (DEI) at Princeton University Library (PUL). 
+									In her role, Abiola will provide strategic vision, advice, and leadership for DEI initiatives across PUL.
+									Reporting directly to University Librarian Anne Jarvis, Abiola will serve on the Library Strategy Council senior leadership team.
+									Her first day will be August 29, 2022.
+							</td>
+
+						</tr>
+                        
+                </tr>
+          </thead>
+
+           
+
+
+        
+     
+		        
+		         </tbody> 
+		   </table>
+		 
+	  </div>
+
+			
+			</div>
+	</div>
+
+
+
+	  		 <div class="row">
+	  			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 column">
+		  			<div class="page-header col-lg-offset-1">
+		  				<h2>Welcome to our portal</h2>
+		  			</div>
+					  The Library Management system (LMS) acts as a tool to transform traditional libraries into digital libraries.
+					   In traditional libraries, the students/user has to search for books which are hassle process
+					    and there is no proper maintenance of database about issues/fines.
+					
+	  				<!-- <a href="http://localhost/lib/registration_form.php"><p class="slide2"><button class="btn btn-success">Sign Up</button></p></a> -->
+					
+					  <!-- <a href=http://localhost/lib/author.html><p class="slide2"><button class="btn btn-success">Searxch Author</button></a></p> </td> -->
+	  			</div>
+	  			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 column">
+		  			<div class="page-header col-lg-offset-1">
+		  				<h2>24/7 Operational Support</h2>
+		  			</div>
+					  The 24/7 Library proposal has been very welcome and has received wide support across the University community.
+					   The proposal will be built into the University budget and presented to the University’s principal governing body,
+					    the Council, in July, to receive its final approval.
+					
+	  			</div>
+	  			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 column">
+	  				<div class="page-header col-lg-offset-1">
+	  				<h2>Why Us?</h2>
+	  			</div>
+				  Today's libraries are more than just books. 
+				  From teaching critical literacy skills to promoting entrepreneurship and
+				   small business development to preserving and facilitating our community stories, 
+				   an easier question might be what don't libraries do! 
+				   Check out some examples of what libraries of all types are doing for their communities.
+	  			</div>
+	  		</div>
+		</div> 
+
+		<div class="container-fluid slide3" style="background-color: #282828">
+			<div class="container">
+				<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<a href="#" class="thumbnail">
+						<img src="ify/1.jpeg">
+					</a>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<a href="#" class="thumbnail">
+						<img src="ify/6.jpeg">
+					</a>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<a href="#" class="thumbnail">
+						<img src="ify/7.jpeg">
+					</a>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<a href="#" class="thumbnail">
+						<img src="ify/4.jpeg">
+					</a>
+				</div>
+			</div>
+			</div>
+			
+		</div>
+		
+
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script>
+	$(".navigation li").hover(function () {
+		var isHovered = $(this).is(":hover");
+		if (isHovered) {
+			$(this).children("ul").stop().slideDown(300);
+		} else {
+			$(this).children("ul").stop().slideUp(300);
+		}
+	});
+
+</script>
+</body>
+</html>
